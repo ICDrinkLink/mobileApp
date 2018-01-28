@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jUc-wR-YxL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DrinkLink-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Drinklink" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A1X-wS-1jG">
+                                <rect key="frame" x="163" y="425" width="51" height="31"/>
+                                <connections>
+                                    <action selector="toggleTrackingSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="2oQ-tu-aNH"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You pair code is: ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vf1-r7-4ie">
+                                <rect key="frame" x="115" y="512" width="145" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzP-fV-HuP">
+                                <rect key="frame" x="32" y="88" width="310" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="q83-QF-K74"/>
+                                </constraints>
+                                <string key="text">The DrinkLink companion app allows you to share your location with your friends via a unique pair code. All your friends have to do is go to drink.link, select 'Sober Friend' and input your code. 
+
+To enable tracking, please toggle the feature below. Please note that this app will continue to follow you even after you leave it, whilst location tracking is enabled. </string>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WM6-LV-1ZB">
+                                <rect key="frame" x="131" y="362" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="A1X-wS-1jG" firstAttribute="top" secondItem="WM6-LV-1ZB" secondAttribute="bottom" constant="42" id="2fP-dP-ZjN"/>
+                            <constraint firstItem="Vf1-r7-4ie" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q6E-e6-rR4"/>
+                            <constraint firstItem="A1X-wS-1jG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vzf-Ec-Uuq"/>
+                            <constraint firstItem="Vf1-r7-4ie" firstAttribute="top" secondItem="A1X-wS-1jG" secondAttribute="bottom" constant="56" id="XaF-Qy-9Uw"/>
+                            <constraint firstItem="WM6-LV-1ZB" firstAttribute="top" secondItem="FzP-fV-HuP" secondAttribute="bottom" constant="24" id="dTi-t4-nJg"/>
+                            <constraint firstItem="FzP-fV-HuP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oBU-dN-Hy9"/>
+                            <constraint firstItem="FzP-fV-HuP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="oaU-UJ-n6t"/>
+                            <constraint firstItem="WM6-LV-1ZB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v7G-Wj-b8Q"/>
+                            <constraint firstItem="FzP-fV-HuP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="ycj-59-5q7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="DrinkLink" id="0Pz-sZ-nGa"/>
+                    <connections>
+                        <outlet property="appInfoTextArea" destination="FzP-fV-HuP" id="zPz-fa-Jnh"/>
+                        <outlet property="toggleLocationTracking" destination="A1X-wS-1jG" id="XNd-83-lvL"/>
+                        <outlet property="trackingLabel" destination="Vf1-r7-4ie" id="NI1-5J-Jsx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888.79999999999995" y="116.49175412293854"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="35F-Ax-Ln2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jUc-wR-YxL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="K88-Lo-iQN">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.32549019607843138" green="0.13333333333333333" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="G2N-u2-aMx">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FOy-X0-Ain"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NCQ-cO-5jy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.2" y="117.84107946026987"/>
+        </scene>
+    </scenes>
+</document>

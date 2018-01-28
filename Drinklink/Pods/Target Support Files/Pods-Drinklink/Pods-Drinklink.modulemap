@@ -1,0 +1,6 @@
+framework module Pods_Drinklink {
+  umbrella header "Pods-Drinklink-umbrella.h"
+
+  export *
+  module * { export * }
+}

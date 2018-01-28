@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9AC92B9201CA4C7008FBB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC92B8201CA4C7008FBB55 /* AppDelegate.swift */; };
+		C9AC92BB201CA4C7008FBB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC92BA201CA4C7008FBB55 /* ViewController.swift */; };
+		C9AC92BE201CA4C7008FBB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AC92BC201CA4C7008FBB55 /* Main.storyboard */; };
+		C9AC92C0201CA4C7008FBB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AC92BF201CA4C7008FBB55 /* Assets.xcassets */; };
+		C9AC92C3201CA4C7008FBB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AC92C1201CA4C7008FBB55 /* LaunchScreen.storyboard */; };
+		C9C2EA73201D6E7700E6E7B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9C2EA72201D6E2900E6E7B0 /* GoogleService-Info.plist */; };
+		DFF0B3F745F92F4925A47133 /* Pods_Drinklink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901B2757B2910C6AACEAE98 /* Pods_Drinklink.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2F02C9B96A96BEAE99222C /* Pods-Drinklink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drinklink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drinklink/Pods-Drinklink.debug.xcconfig"; sourceTree = "<group>"; };
+		7901B2757B2910C6AACEAE98 /* Pods_Drinklink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drinklink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9437FEECED7144A93C07E98 /* Pods-Drinklink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drinklink.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drinklink/Pods-Drinklink.release.xcconfig"; sourceTree = "<group>"; };
+		C9AC92B5201CA4C7008FBB55 /* Drinklink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drinklink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AC92B8201CA4C7008FBB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9AC92BA201CA4C7008FBB55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9AC92BD201CA4C7008FBB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9AC92BF201CA4C7008FBB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9AC92C2201CA4C7008FBB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9AC92C4201CA4C7008FBB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C2EA72201D6E2900E6E7B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "/Users/Matt/Desktop/Drinklink/Drinklink/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9AC92B2201CA4C7008FBB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF0B3F745F92F4925A47133 /* Pods_Drinklink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9AC92AC201CA4C7008FBB55 = {
+			isa = PBXGroup;
+			children = (
+				C9AC92B7201CA4C7008FBB55 /* Drinklink */,
+				C9AC92B6201CA4C7008FBB55 /* Products */,
+				E5197EBF58898B3928BF61C2 /* Pods */,
+				F1FF0EF58975E79B4A67A7C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9AC92B6201CA4C7008FBB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC92B5201CA4C7008FBB55 /* Drinklink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9AC92B7201CA4C7008FBB55 /* Drinklink */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC92B8201CA4C7008FBB55 /* AppDelegate.swift */,
+				C9AC92BA201CA4C7008FBB55 /* ViewController.swift */,
+				C9AC92BC201CA4C7008FBB55 /* Main.storyboard */,
+				C9AC92BF201CA4C7008FBB55 /* Assets.xcassets */,
+				C9AC92C1201CA4C7008FBB55 /* LaunchScreen.storyboard */,
+				C9AC92C4201CA4C7008FBB55 /* Info.plist */,
+				C9C2EA72201D6E2900E6E7B0 /* GoogleService-Info.plist */,
+			);
+			path = Drinklink;
+			sourceTree = "<group>";
+		};
+		E5197EBF58898B3928BF61C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F2F02C9B96A96BEAE99222C /* Pods-Drinklink.debug.xcconfig */,
+				A9437FEECED7144A93C07E98 /* Pods-Drinklink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1FF0EF58975E79B4A67A7C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7901B2757B2910C6AACEAE98 /* Pods_Drinklink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9AC92B4201CA4C7008FBB55 /* Drinklink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AC92C7201CA4C7008FBB55 /* Build configuration list for PBXNativeTarget "Drinklink" */;
+			buildPhases = (
+				198280DDC2F1F3108C2CBB5A /* [CP] Check Pods Manifest.lock */,
+				C9AC92B1201CA4C7008FBB55 /* Sources */,
+				C9AC92B2201CA4C7008FBB55 /* Frameworks */,
+				C9AC92B3201CA4C7008FBB55 /* Resources */,
+				EC8506735BCBBC847F933126 /* [CP] Embed Pods Frameworks */,
+				920C2F1E15CC184D2254903E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drinklink;
+			productName = Drinklink;
+			productReference = C9AC92B5201CA4C7008FBB55 /* Drinklink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9AC92AD201CA4C7008FBB55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Matthew Malarkey";
+				TargetAttributes = {
+					C9AC92B4201CA4C7008FBB55 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C9AC92B0201CA4C7008FBB55 /* Build configuration list for PBXProject "Drinklink" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9AC92AC201CA4C7008FBB55;
+			productRefGroup = C9AC92B6201CA4C7008FBB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9AC92B4201CA4C7008FBB55 /* Drinklink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9AC92B3201CA4C7008FBB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AC92C3201CA4C7008FBB55 /* LaunchScreen.storyboard in Resources */,
+				C9C2EA73201D6E7700E6E7B0 /* GoogleService-Info.plist in Resources */,
+				C9AC92C0201CA4C7008FBB55 /* Assets.xcassets in Resources */,
+				C9AC92BE201CA4C7008FBB55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		198280DDC2F1F3108C2CBB5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Drinklink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920C2F1E15CC184D2254903E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drinklink/Pods-Drinklink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8506735BCBBC847F933126 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Drinklink/Pods-Drinklink-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drinklink/Pods-Drinklink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9AC92B1201CA4C7008FBB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AC92BB201CA4C7008FBB55 /* ViewController.swift in Sources */,
+				C9AC92B9201CA4C7008FBB55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9AC92BC201CA4C7008FBB55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9AC92BD201CA4C7008FBB55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9AC92C1201CA4C7008FBB55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9AC92C2201CA4C7008FBB55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9AC92C5201CA4C7008FBB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9AC92C6201CA4C7008FBB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9AC92C8201CA4C7008FBB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2F02C9B96A96BEAE99222C /* Pods-Drinklink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72QW2MHS6Q;
+				INFOPLIST_FILE = Drinklink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = link.drink.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9AC92C9201CA4C7008FBB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9437FEECED7144A93C07E98 /* Pods-Drinklink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72QW2MHS6Q;
+				INFOPLIST_FILE = Drinklink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = link.drink.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9AC92B0201CA4C7008FBB55 /* Build configuration list for PBXProject "Drinklink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AC92C5201CA4C7008FBB55 /* Debug */,
+				C9AC92C6201CA4C7008FBB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9AC92C7201CA4C7008FBB55 /* Build configuration list for PBXNativeTarget "Drinklink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AC92C8201CA4C7008FBB55 /* Debug */,
+				C9AC92C9201CA4C7008FBB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9AC92AD201CA4C7008FBB55 /* Project object */;
+}
